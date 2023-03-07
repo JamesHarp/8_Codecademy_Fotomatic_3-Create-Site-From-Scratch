@@ -84,4 +84,4 @@ Fotomatic is [Project #8](https://www.codecademy.com/journeys/full-stack-enginee
 ### Create Header Section
 
 - [x] Create desktop nav
-- [ ] Create mobile nav
+- [x] Create mobile nav
