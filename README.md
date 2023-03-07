@@ -80,3 +80,8 @@ Fotomatic is [Project #8](https://www.codecademy.com/journeys/full-stack-enginee
 #### 2.2.4 Footer
 
 ## 3. Create Site from Scratch
+
+### Create Header Section
+
+- [x] Create desktop nav
+- [ ] Create mobile nav

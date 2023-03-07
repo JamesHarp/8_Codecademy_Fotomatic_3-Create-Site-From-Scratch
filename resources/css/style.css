@@ -2,8 +2,15 @@
 /* universal */
 /* --------------------------------------------------------------- */
 * {
-    outline: red 1px solid;
+    /* outline: red 1px solid; */
 }
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* --------------------------------------------------------------- */
 
 /* --------------------------------------------------------------- */
@@ -33,12 +40,6 @@ header {
 
 header .content {
     padding: 30px;
-    background-color: chartreuse;
-}
-
-header .desktop {
-    display: flex;
-    background-color: violet;
 }
 
 header .desktop .logo
@@ -48,6 +49,20 @@ header .desktop .logo
     color: #4a4a4a;
     flex:1;
 }
+
+header .desktop nav ul li {
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+#desktop-insta-icon {
+    width: 16px;
+    padding-left: 16px;
+}
+
 /* --------------------------------------------------------------- */
 
 
