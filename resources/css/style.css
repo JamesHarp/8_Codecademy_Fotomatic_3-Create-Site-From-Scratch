@@ -1,0 +1,56 @@
+/* --------------------------------------------------------------- */
+/* universal */
+/* --------------------------------------------------------------- */
+* {
+    outline: red 1px solid;
+}
+/* --------------------------------------------------------------- */
+
+/* --------------------------------------------------------------- */
+/* media queries */
+/* --------------------------------------------------------------- */
+
+@media only screen and (max-width: 760px){
+    header .content .desktop {
+        display:none;
+    }
+}
+/* --------------------------------------------------------------- */
+
+/* --------------------------------------------------------------- */
+/* header - desktop */
+/* --------------------------------------------------------------- */
+header .mobile {
+    display: none;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom: #c6c1c1 1px solid;
+}
+
+header .content {
+    padding: 30px;
+    background-color: chartreuse;
+}
+
+header .desktop {
+    display: flex;
+    background-color: violet;
+}
+
+header .desktop .logo
+{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    color: #4a4a4a;
+    flex:1;
+}
+/* --------------------------------------------------------------- */
+
+
+
+/*  header - mobile */
+
