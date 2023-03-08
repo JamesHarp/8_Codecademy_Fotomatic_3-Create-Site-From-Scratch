@@ -81,8 +81,14 @@ Fotomatic is [Project #8](https://www.codecademy.com/journeys/full-stack-enginee
 ### 3.1 Create Header Section
 - [x] Create responsive layouts
 	- [x] Desktop
-	- [x] Tablet
+	- [x] Tablet / Mobile
 ### 3.2 Create Banner Section
+- [x] Create responsive layouts
+	- [x] Desktop
+	- [x] Tablet
+	- [x] Mobile  
+
+### 3.3 Create Features Section
 - [x] Create responsive layouts
 	- [x] Desktop
 	- [x] Tablet

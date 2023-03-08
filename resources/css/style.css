@@ -21,6 +21,11 @@ html {
   justify-content: center;
 }
 
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
 /* header - desktop */
 /* --------------------------------------------------------------- */
 
@@ -33,6 +38,7 @@ header {
   z-index: 1;
   width: 100%;
   border-bottom: #c6c1c1 1px solid;
+  background-color: white;
 }
 
 header .content {
@@ -145,12 +151,54 @@ main {
   margin-top: 26px;
 }
 
+/* features */
+/* --------------------------------------------------------------- */
+
+#features-section {
+  display: flex;
+  /* height: 635px; */
+
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 4rem 5%;
+  background-color: #f3f3f3;
+  /* background-color: #9dc20b; */
+}
+
+.feature {
+  background-color: white;
+  color: #4a4a4a;
+  line-height: 1.2;
+  text-align: center;
+  padding: 32px;
+  margin: 0px 1.25rem;
+}
+
+.feature .feature-header {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.feature .feature-text {
+  font-weight: 300;
+}
+
 /* media queries */
 /* --------------------------------------------------------------- */
+@media only screen and (max-width: 890px) {
+  .feature h2 {
+    font-size: 1.125rem;
+    line-height: 2;
+  }
+
+  .feature-text {
+    font-size: 14px;
+  }
+}
 
 @media only screen and (max-width: 760px) {
   /* header */
-
+  /* --------------------------------------------------------------- */
   header .content .desktop {
     display: none;
   }
@@ -162,19 +210,20 @@ main {
   }
 
   /* main */
-
+  /* --------------------------------------------------------------- */
   main {
     top: 3rem;
   }
 
   /* banner */
-
+  /* --------------------------------------------------------------- */
   #banner {
     height: 28rem;
     justify-content: center;
   }
 
   /* sign-up cta */
+  /* --------------------------------------------------------------- */
   #sign-up-cta {
     background-color: transparent;
     position: static;
@@ -182,6 +231,27 @@ main {
 
   #sign-up-cta #email {
     display: none;
+  }
+
+  /* features */
+  /* --------------------------------------------------------------- */
+  #features-section {
+    display: block;
+    padding: 0;
+  }
+
+  .feature {
+    margin: 0;
+    padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .feature .image-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .feature .content {
+    padding: 1.25rem 0 1.875rem 0;
   }
 }
 
