@@ -97,3 +97,8 @@ Fotomatic is [Project #8](https://www.codecademy.com/journeys/full-stack-enginee
 - [x] Create responsive layouts
 	- [x] Desktop
 	- [x] Tablet
+
+### 3.5 Create Quote and Footer Sections
+- [x] Create responsive layouts
+	- [x] Desktop
+	- [x] Tablet

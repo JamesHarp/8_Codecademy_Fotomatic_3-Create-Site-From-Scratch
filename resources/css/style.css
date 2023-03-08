@@ -151,7 +151,7 @@ main {
   margin-top: 26px;
 }
 
-/* features */
+/* features section*/
 /* --------------------------------------------------------------- */
 
 #features-section {
@@ -183,7 +183,7 @@ main {
   font-weight: 300;
 }
 
-/* filters */
+/* filters section*/
 /* --------------------------------------------------------------- */
 
 #filters-section {
@@ -206,6 +206,47 @@ main {
 #filters-section #filter-images {
   display: flex;
   padding: 0 1%;
+}
+
+/* quote section */
+/* --------------------------------------------------------------- */
+
+#quote-section {
+  text-align: center;
+  padding: 5rem 0;
+  color: #4a4a4a;
+}
+
+#quote-section .quote {
+  padding-right: 1.875rem;
+  font-family: 'Palatino', serif;
+  font-size: 1.875rem;
+  line-height: 1.1;
+  font-style: italic;
+}
+
+#quote-section .quote-citation {
+  height: 1.875rem;
+}
+
+/* footer */
+/* --------------------------------------------------------------- */
+
+footer {
+  position: relative;
+  top: 86px;
+  background-color: #9b9b9b;
+  padding: 1.5rem 2rem;
+}
+
+footer .content {
+  color: white;
+  display: flex;
+  font-size: 0.75rem;
+}
+
+footer .copyright {
+  flex-grow: 1;
 }
 
 /* media queries */
@@ -292,7 +333,7 @@ main {
 
   #filters-section .content h2 {
     padding-bottom: 0.625rem;
-    font-size: 18px
+    font-size: 18px;
   }
 
   #filters-section .content p {
@@ -300,10 +341,34 @@ main {
     font-size: 14px;
   }
 
-  #filters-section #extra{
+  #filters-section #extra {
     display: none;
   }
 
+  /* quote */
+  /* --------------------------------------------------------------- */
+
+  #quote-section {
+    padding: 1.875rem 0.625rem;
+  }
+
+  #quote-section .quote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  #quote-section .quote-citation {
+    display: block;
+    padding-top: 1rem;
+    margin: auto;
+  }
+
+  /* footer */
+  /* --------------------------------------------------------------- */
+
+  footer .content {
+    font-size: 0.625rem;
+  }
 }
 
 @media only screen and (max-width: 450px) {
